@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+*.xml
+*.json
+*.csv
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Checkpoints
+checkpoints/
+*.pth
+
+# Custom for this project
+*.pdf
+*.zip
+*.tar
+*.gz
+
+# Large model files
+*.pt
+*.onnx
+*.tflite
+saved_model/
+*.pb
