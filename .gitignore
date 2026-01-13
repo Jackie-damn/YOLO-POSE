@@ -53,9 +53,5 @@ checkpoints/
 *.tar
 *.gz
 
-# Large model files
-*.pt
-*.onnx
-*.tflite
-saved_model/
-*.pb
+# Using Git LFS for large model files
+*.lfs.* filter=lfs diff=lfs merge=lfs -text
